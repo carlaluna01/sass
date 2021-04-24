@@ -1,0 +1,22 @@
+$claro: rgb(243, 176, 176);
+$oscuro: rgb(190, 98, 98);
+$fuenteChica: 20px;
+$fuenteGrande: 50px;
+$interlineado: none;
+
+body {
+    color: $claro;
+    font-size: $fuenteGrande * 2;
+}
+
+a {
+    color: $oscuro;
+    font-size: $fuenteChica/2;
+}
+
+@if $interlineado=none {
+    
+    a {
+        text-decoration: none;
+    }
+}
